@@ -1,3 +1,3 @@
-import voxgigIntegration from './src/index.js';
+import podmindIntegration from './src/index.js';
 
-export default voxgigIntegration;
+export default podmindIntegration;
