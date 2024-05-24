@@ -1,4 +1,4 @@
-# Astro Voxgig Integration
+# Astro Podmind Integration
 
 This is an Astro integration to add a Voxgig Podmind component to your Astro project.
 
@@ -7,7 +7,7 @@ This is an Astro integration to add a Voxgig Podmind component to your Astro pro
 Install the package using npm:
 
 ```bash
-npm install astro-voxgig-integration
+npm install astro-podmind-integration
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ import voxgigIntegration from 'astro-voxgig-integration';
 
 export default defineConfig({
   integrations: [
-    voxgigIntegration({ apikey: 'your-api-key' }),
+    voxgigIntegration(),
   ],
 });
 ```
@@ -51,5 +51,6 @@ This integration allows you to add the Voxgig Podmind component to your Astro pr
 This is a work in progress.
 
 ## To do
+
 1. Create style properties for customization while doing the integration.
 2. Properly embed the voxgig script to send the prompt
