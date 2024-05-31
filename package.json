@@ -1,13 +1,16 @@
 {
   "name": "astro-podmind-integration",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "keywords": [],
+  "description": "An Astro integration for Voxgig Podmind",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": ["astro-component", "withastro", "astro-integration"],
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "dependencies": {
-    "astro": "^4.9.1"
+  "peerDependencies": {
+    "astro": "^4.9.2"
+  },
+  "devDependencies": {
+    "astro": "^4.9.2"
   }
 }
